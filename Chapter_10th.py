@@ -36,12 +36,10 @@ print(f.readline())
 # Hello! Welcome to demofile.txt
 # This file is for testing purposes.
 
-
 # Example 5
 f = open("demofile.txt", "r")
 for x in f:
   print(x)
-
 
 # Output
 # C:\Users\My Name>python demo_file_readline3.py
@@ -59,7 +57,6 @@ f.close()
 # C:\Users\My Name>python demo_file_close.py
 # Hello! Welcome to demofile.txt
 
-
 # Example 7
 f = open("demofile2.txt", "a")
 f.write("Now the file has more content!")
@@ -68,7 +65,6 @@ f.close()
 # open and read the file after the appending:
 f = open("demofile2.txt", "r")
 print(f.read())                    
-
 
 # Output
 # C:\Users\My Name>python demo_file_append.py
